@@ -73,10 +73,12 @@ button:active {
 
 #heart, #star {
     font-size: 20px;
+    color: white;
 }
 
 footer {
     text-align: center;
     background-color: #ffcad9;
     color: white;
+    margin-top: 20px;
 }
