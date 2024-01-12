@@ -10,53 +10,56 @@
   <div id="main-container">
     <div id="calculator-outline">
 
-        <div class="screen">2 + 2 = 4</div>
+        <div class="screen">
+            <div id="first-op"></div>
+            <div id="second-op"></div>
+        </div>
 
         <div class="pad-row">
             <button class="clear-btn">Clear</button>
 
-            <button>%?</button>
+            <button id="heart">🖤</button>
 
-            <button>+/-?</button>
+            <button id="star">★</button>
 
             <button class="op-btn" id="divide-btn">/</button>
         </div>
         
         <div class="pad-row">
-                <button class="num-btn">7</button>
+                <button class="num-btn" id="seven">7</button>
             
-                <button class="num-btn">8</button>
+                <button class="num-btn" id="eight">8</button>
             
-                <button class="num-btn">9</button>
+                <button class="num-btn" id="nine">9</button>
            
                 <button class="op-btn" id="multiply-btn">x</button>
         </div>
 
         <div class="pad-row">
-                <button class="num-btn">4</button>
+                <button class="num-btn" id="four">4</button>
             
-                <button class="num-btn">5</button>
+                <button class="num-btn" id="five">5</button>
             
-                <button class="num-btn">6</button>
+                <button class="num-btn" id="six">6</button>
            
                 <button class="op-btn" id="sub-btn">-</button>
         </div>
 
         <div class="pad-row">
-                <button class="num-btn">1</button>
+                <button class="num-btn" id="one">1</button>
             
-                <button class="num-btn">2</button>
+                <button class="num-btn" id="two">2</button>
             
-                <button class="num-btn">3</button>
+                <button class="num-btn" id="three">3</button>
            
                 <button class="op-btn" id="add-btn">+</button>
         </div>
         
         
         <div class="pad-row" id="last-row">
-                <button class="zero-btn">0</button>
+                <button class="num-btn" id="zero">0</button>
 
-                <button class="dot-btn">.</button>
+                <button class="dot-btn" id="decimal">.</button>
 
                 <button class="op-btn" id="equals-btn">=</button>
             
@@ -69,4 +72,5 @@
 
     </script>
 </body>
+<footer>★Created by Alison DesRoches for The Odin Project★</footer>
 </html>

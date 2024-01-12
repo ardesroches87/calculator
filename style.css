@@ -1,9 +1,11 @@
 #main-container {
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 #calculator-outline {
+    margin-top: 30px;
     width: 400px;
     height: 650px;
     display: flex;
@@ -13,6 +15,7 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+
 .screen {
     background-color: #f3e3e8;
     width: 80%;
@@ -20,6 +23,7 @@
     padding: 5px 15px;
     margin: 40px 0px;
     text-align: right;
+    font-size: 30px;
 }
 
 .clear-btn {
@@ -47,6 +51,11 @@ button:hover {
     box-shadow: 0 6px 6px #757474;
 }
 
+button:active {
+    height: 68px;
+    width: 68px;
+}
+
 .pad-row {
     display: flex;
     flex: 1;
@@ -60,4 +69,14 @@ button:hover {
 #equals-btn {
     background-color: #fccedb;
     color: rgb(39, 37, 37);
+}
+
+#heart, #star {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffcad9;
+    color: white;
 }
